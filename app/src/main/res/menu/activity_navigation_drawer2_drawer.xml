@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_house"
+            android:icon="@drawable/ic_home_black"
+            android:title="House Info" />
+        <item
+            android:id="@+id/nav_theory"
+            android:icon="@drawable/ic_create_black"
+            android:title="Theory Zone" />
+        <item
+            android:id="@+id/nav_quiz"
+            android:icon="@drawable/ic_videogame_asset_black_24dp"
+            android:title="Quiz" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+
+            <item
+                    android:id="@+id/nav_viewG"
+                android:icon="@drawable/ic_web_black_24dp"
+                android:title="Viewer Guide" />
+
+
+            <item
+            android:id="@+id/nav_userG"
+            android:icon="@drawable/ic_web_black_24dp"
+            android:title="User Guide" />
+
+            <item
+             />
+            <item
+            />
+            <item
+                />
+            <item
+
+                android:iconTint="@color/red"
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit_to_app_red_24dp"
+                android:title="Log out" />
+
+
+
+
+        </menu>
+
+    </item>
+
+
+
+
+</menu>

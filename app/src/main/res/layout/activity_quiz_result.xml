@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizPagE.QuizResult">
+
+    <TextView
+        android:id="@+id/comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#000000"
+        android:padding="16dp"
+        android:textSize="35sp"
+
+android:gravity="center_horizontal"
+        android:text="Congrats"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textColor="#000"
+        android:fontFamily=""
+        android:id="@+id/fs"
+        android:layout_below="@+id/comment"
+        android:padding="16dp"
+        android:text="You scored 9 out of 9"
+        android:textAlignment="center"
+        android:textSize="24sp"
+
+        />
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#4532"
+        android:layout_margin="4dp"
+        android:padding="8dp"
+        android:text="Retry"
+        android:id="@+id/retry"
+        android:layout_below="@+id/fs" />
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#4532"
+        android:layout_margin="4dp"
+        android:padding="8dp"
+        android:text="Home"
+        android:id="@+id/home"
+        android:layout_below="@+id/retry" />
+
+</RelativeLayout>

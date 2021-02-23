@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TheoryPagE.AddEditTheory">
+
+
+    <EditText
+
+        android:id="@+id/enter_theory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="#fff"
+        android:ems="10"
+        android:gravity="top"
+
+        android:hint="Theory Title
+
+
+
+
+                                                                              Theory Content
+
+
+
+                                                                       Remember to mark it with your full name!"
+        android:inputType="textMultiLine"
+        android:paddingStart="12dp"
+        android:paddingTop="4dp"
+
+        android:paddingEnd="12dp" />
+
+</RelativeLayout>

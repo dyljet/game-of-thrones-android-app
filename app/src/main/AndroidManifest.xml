@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gameofquestions">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UserGuide"></activity>
+        <activity android:name=".ViewerGuide">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NavigationDrawer">
+
+            </meta-data>
+        </activity>
+        <activity
+            android:name=".TheoryPagE.TheoryMainPage"
+            android:label="@string/title_activity_theory_main_page"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".TheoryPagE.AddEditTheory" />
+        <activity android:name=".QuizPagE.QuizResult" />
+        <activity android:name=".QuizPagE.Quiz" />
+        <activity
+            android:name=".NavigationDrawer"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".HousePagE.HouseList" />
+        <activity android:name=".LoginPagE.RegisterPage" />
+        <activity android:name=".LoginPagE.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HousePagE.HouseTrgryn"
+            android:theme="@style/AppTheme.HouseTheme" />
+        <activity
+            android:name=".HousePagE.HouseStark"
+            android:theme="@style/AppTheme.HouseTheme" />
+        <activity
+            android:name=".HousePagE.HouseGJ"
+            android:theme="@style/AppTheme.HouseTheme" />
+        <activity
+            android:name=".HousePagE.HouseBara"
+            android:theme="@style/AppTheme.HouseTheme" />
+        <activity
+            android:name=".HousePagE.HouseTyrell"
+            android:theme="@style/AppTheme.HouseTheme" />
+        <activity
+            android:name=".HousePagE.HouseArryn"
+            android:theme="@style/AppTheme.HouseTheme" />
+        <activity
+            android:name=".HousePagE.HouseMartell"
+            android:theme="@style/AppTheme.HouseTheme" />
+        <activity
+            android:name=".HousePagE.HouseTully"
+            android:theme="@style/AppTheme.HouseTheme" />
+        <activity
+            android:name=".HousePagE.HouseLannister"
+            android:theme="@style/AppTheme.HouseTheme" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service android:name=".LoginPagE.MyService" />
+    </application>
+
+</manifest>
